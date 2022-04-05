@@ -11,4 +11,5 @@
   <li>Use of Custom Hook</li>
   <li>Use of Rechart Library</li>
   <li>Fixed the issue of netlify reload 404 problem</li>
+  <li>Use of Tailwind CSS, HeroIcon in React</li>
 </ul>
