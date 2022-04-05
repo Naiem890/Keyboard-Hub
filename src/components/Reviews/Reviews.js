@@ -7,7 +7,9 @@ const Reviews = () => {
 
   return (
     <div className="md:mx-28 mx-8 my-10 ">
-      <h2 className="text-4xl text-center font-semibold">Customer Review</h2>
+      <h2 className="text-4xl text-center font-semibold">
+        What Our Customer Says
+      </h2>
       <div className="grid grid-cols-3  gap-10 my-10">
         {review.map((r) => (
           <Review review={r}></Review>
