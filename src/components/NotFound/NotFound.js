@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import notFoundImage from "../../image/404.png";
+import notFoundImage from "../../image/404.webp";
 
 const NotFound = () => {
   return (
@@ -10,7 +10,7 @@ const NotFound = () => {
         Page Not Found
       </p>
       <Link
-        to="/home"
+        to="/"
         className="px-6 w-44 py-3 mx-auto block rounded-xl text-center w-  border-2 text-orange-600 font-bold border-orange-500 hover:bg-orange-100"
       >
         Go Back Home
