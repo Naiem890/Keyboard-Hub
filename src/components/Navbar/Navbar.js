@@ -8,7 +8,7 @@ const Navbar = () => {
         className="flex flex-wrap
       justify-center py-6 font-medium "
       >
-        <NavLink to="/home" className="hover:bg-orange-200 px-6 py-2">
+        <NavLink to="/" className="hover:bg-orange-200 px-6 py-2 ">
           Home
         </NavLink>
         <NavLink to="/reviews" className="hover:bg-orange-200 px-6 py-2">
