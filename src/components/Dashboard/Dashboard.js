@@ -24,11 +24,9 @@ const Dashboard = () => {
       .then((data) => setData(data));
   }, []);
 
-  console.log(data);
-
   return (
     <div className="md:mx-28 mx-8 my-10 ">
-      <div className="grid grid-cols-2  gap-y-16">
+      <div className="grid lg:grid-cols-2  gap-y-16">
         <div>
           <h3 className="text-xl uppercase font-bold  text-center mb-8 text-indigo-500">
             Month Wise Sell

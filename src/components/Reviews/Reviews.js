@@ -10,9 +10,9 @@ const Reviews = () => {
       <h2 className="text-4xl text-center font-semibold">
         What Our Customer Says
       </h2>
-      <div className="grid grid-cols-3  gap-10 my-10">
+      <div className="grid md:grid-cols-3  gap-10 my-10">
         {review.map((r) => (
-          <Review review={r}></Review>
+          <Review key={r._id} review={r}></Review>
         ))}
       </div>
     </div>

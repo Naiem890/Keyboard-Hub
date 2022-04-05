@@ -12,9 +12,9 @@ const Home = () => {
 
       <div className="my-16">
         <h2 className="text-4xl text-center font-semibold">Customer Review</h2>
-        <div className="grid grid-cols-3  gap-10 my-10">
+        <div className="grid md:grid-cols-3  gap-10 my-10">
           {review.slice(0, 3).map((r) => (
-            <Review review={r}></Review>
+            <Review key={r._id} review={r}></Review>
           ))}
         </div>
         <Link
